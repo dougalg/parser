@@ -1,0 +1,46 @@
+{
+  "name": "stylegud-parser",
+  "version": "0.1.0",
+  "description": "A holistic parser for generating living styleguides",
+  "main": "./src/stylegud-parser.js",
+  "scripts": {
+    "test": "NODE_PATH=src nyc --exclude=tests --include=src -r text -r html --all ava -v tests",
+    "linting": "eslint -c .eslintrc ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stylegud/parser.git"
+  },
+  "keywords": [
+    "stylegud",
+    "Styleguide",
+    "Living",
+    "parse",
+    "parser",
+    "jsdoc",
+    "kss"
+  ],
+  "author": "Dougal Graham",
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stylegud/parser/issues"
+  },
+  "homepage": "https://github.com/stylegud/parser#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "jsdoc-api": "^3.0.0",
+    "kss": "^3.0.0-beta.17",
+    "object-mapper": "^3.0.1"
+  },
+  "bin": {
+    "stylegud-parser": "src/cli.js"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "eslint": "3.12.2",
+    "nyc": "^10.1.2"
+  }
+}

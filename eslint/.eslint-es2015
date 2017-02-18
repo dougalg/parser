@@ -1,0 +1,26 @@
+{
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 6
+    },
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "ecmaFeatures": {
+        "classes": false,
+        "modules": true
+    },
+    "rules": {
+        "arrow-body-style": [1, "as-needed"],
+        "arrow-parens": 1,
+        "arrow-spacing": 1,
+        "no-confusing-arrow": 1,
+        "no-const-assign": 1,
+        "no-constant-condition": 1,
+        "no-var": 1,
+        "object-shorthand": [1, "always"],
+        "prefer-template": 1,
+        "require-yield": 1
+    }
+}

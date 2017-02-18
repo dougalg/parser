@@ -1,0 +1,24 @@
+{
+    "extends": [
+        "./eslint/.eslint-base",
+        "./eslint/.eslint-style",
+        "./eslint/.eslint-code",
+        "./eslint/.eslint-es2015",
+        "./eslint/.eslint-tests"
+    ],
+
+    "env": {
+    },
+
+    "parserOptions": {
+    },
+
+    "ecmaFeatures": {
+    },
+
+    "rules": {
+    },
+
+    "globals": {
+    }
+}
