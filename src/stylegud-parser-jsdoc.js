@@ -95,9 +95,7 @@ const EXPORTS_MATCHER = /^exports\./;
  * @returns {String} The modified export value
  */
 function getExport(item, tags) {
-    console.log(tags);
     const name = item.meta.code.name;
-    console.log(name);
     if (name.match(EXPORTS_MATCHER)) {
         return name.replace(EXPORTS_MATCHER, '');
     }

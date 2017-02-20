@@ -1,6 +1,6 @@
 {
   "name": "stylegud-parser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A holistic parser for generating living styleguides",
   "main": "./src/stylegud-parser.js",
   "scripts": {
